@@ -7,6 +7,8 @@ geradas/encontradas pelas Single Page Applications (SPA).
 
 ### layout.tsx
 
+![Screen layout.tsx](./public/img-layout-tsx.png "layout.tsx screen")
+
 - Define a estrutura que vai ser repetida em todas as páginas da aplicação.
 - É o único arquivo que tem a função 'RootLayout'.
 - Mesmo durante a troca de rotas, as informações contidas no layout.tsx não são
