@@ -5,12 +5,15 @@ geradas/encontradas pelas Single Page Applications (SPA).
 
 ## Iniciando um Projeto
 
-Segundo a documentação oficial do NextJS, é recomendado que para iniciar um novo
-projeto, seja utilizando o comando `npx create-next-app@latest`.
+É recomendado que para iniciar um novo projeto, seja utilizando o comando
+`npx create-next-app@latest`, que irá configurar tudo automaticamente para você.
 
 ```
 npx create-next-app@latest
 ```
+
+Por padrão, na configuração do NextJS, é oferecido a opção de utilizar
+TypeScript, ESLint e Tailwind CSS.
 
 ## Arquivos Padrões
 
