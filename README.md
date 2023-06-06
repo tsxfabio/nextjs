@@ -1,7 +1,16 @@
-# NextJS
+# NextJS 13
 
 O [NextJS](https://nextjs.org/) surgiu com o objetivo de sanar as dores
 geradas/encontradas pelas Single Page Applications (SPA).
+
+## Iniciando um Projeto
+
+Segundo a documentação oficial do NextJS, é recomendado que para iniciar um novo
+projeto, seja utilizando o comando `npx create-next-app@latest`.
+
+```
+npx create-next-app@latest
+```
 
 ## Arquivos Padrões
 
