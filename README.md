@@ -61,3 +61,8 @@ export default function Home() {
   páginas da aplicação e suas exibições podem ser concatenadas.
 
 ## Rotas
+
+## Chamadas HTTP
+- Possibilidade de fazer chamadas HTTP direto dos nossos componentes, de forma simplificada, apenas transformando em um componente async e executando a chamada.
+- Deduplicação de requisições.
+- SSR.
