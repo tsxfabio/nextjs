@@ -31,14 +31,35 @@ extremamente bem junto ao NextJS.
 
 ## Arquivos Padrões
 
-### layout.tsx
+### Page
+
+- Arquivo que permite deixar as rotas acessíveis e contem as informações que
+  serão apresentadas.  
+  exemplo:
+
+```
+export default function Home() {
+  return (
+    <div>
+    <h1>Hello Ivory</h1>
+    </div>
+  )
+}
+```
+
+![Exemplo Page](./public/img-page-tsx.png "exemplo page")
+
+### Layout
 
 ![Screen layout.tsx](./public/img-layout-tsx.png "layout.tsx screen")
 
-- Define a estrutura que vai ser repetida em todas as páginas da aplicação.
-- É o único arquivo que tem a função 'RootLayout'.
+- O layout.tsx que possui a function `RootLayout` (normalmente o da camada mais
+  externa) define a estrutura que vai ser repetida em todas as páginas da
+  aplicação.
 - Mesmo durante a troca de rotas, as informações contidas no layout.tsx não são
   recarregadas (isso inclui requisições HTTP), o NextJS entende que essas
   informações devem ser persistentes.
+- Posso ter vários arquivos layout.tsx, de acordo com a minha necessidade nas
+  páginas da aplicação e suas exibições podem ser concatenadas.
 
 ## Rotas
