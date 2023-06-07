@@ -15,6 +15,20 @@ npx create-next-app@latest
 Por padrão, na configuração do NextJS, é oferecido a opção de utilizar
 TypeScript, ESLint e Tailwind CSS.
 
+## Estilização
+
+Suporte a diversas formas de estilização da aplicação, podendo ser usado:
+
+- Global CSS
+- CSS Modules
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Stitches](https://stitches.dev/)
+- [SASS](https://sass-lang.com/)
+- [CSS-in-JS](https://cssinjs.org/?v=v10.10.0)
+
+Ponto de destaque para o Tailwind, que de acordo com a documentação, funciona
+extremamente bem junto ao NextJS.
+
 ## Arquivos Padrões
 
 ### layout.tsx
