@@ -1,6 +1,7 @@
 import { Navigation } from "@/components/Navigation/navigation";
 import "./globals.css";
 import { Inter } from "next/font/google";
+import { Suspense } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,8 +19,10 @@ export default function RootLayout({
     <html lang='en'>
       <body className={inter.className}>
         <h1>IvoryIT Front-Chapter</h1>
-        <Navigation />
-        {children}
+        <Suspense fallback='Loading...'>
+          <Navigation />
+          {children}
+        </Suspense>
       </body>
     </html>
   );

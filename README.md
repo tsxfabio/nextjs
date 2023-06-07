@@ -34,8 +34,8 @@ extremamente bem junto ao NextJS.
 ### Page
 
 - Arquivo que permite deixar as rotas acessíveis e contem as informações que
-  serão apresentadas.  
-  exemplo:
+  serão apresentadas.
+- Arquivo exclusivo para uma rota.
 
 ```
 export default function Home() {
@@ -46,8 +46,6 @@ export default function Home() {
   )
 }
 ```
-
-![Exemplo Page](./public/img-page-tsx.png "exemplo page")
 
 ### Layout
 
